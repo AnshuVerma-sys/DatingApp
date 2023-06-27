@@ -27,6 +27,8 @@ export class AccountService {
     )
   }
 
+ 
+
   register(model:any)
   {
     return this.http.post(this.baseurl+'account/register',model).pipe(
